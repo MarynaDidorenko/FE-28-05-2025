@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    background-color: black;
+}
+
+h2 {
+    background-color: gold
+}
+
+h3 {
+    background-color: aqua;
+}
+
+h4 {
+    background-color: beige;
+}
+
+/* DRY - don't repeat yourself*/
+h1,
+h2,
+h3,
+h4 {
+    color: red;
+}
