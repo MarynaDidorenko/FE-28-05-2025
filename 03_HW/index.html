@@ -5,22 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-    <!-- 1) Створити 2 сторінки і звязати їх за допомогою тегу А
-2) Створити сторінку з формою і розглянути інпути які не розглянуті на уроці
-https://www.w3schools.com/html/html_form_input_types.asp
-https://css.in.ua/html/tag/input/type
-https://css.in.ua/html/tag/input
-3) підключити стилі до сторінок і розфарбуйте текст в тегал label + h заголовки
-4) Перегляньте статті -->
+   
     <h1>First Page</h1>
     <a href="second_page/second_page.html" target="_blank">Go to second page</a>
     <hr>
     <form>
-        <div>
-            <label for="touch me">Button this</label>
+        <div >
+            <label class="input" for="touch me">Button this</label>
             <input type="button" value="touch me">
         </div>
         <div>
@@ -28,7 +23,7 @@ https://css.in.ua/html/tag/input
             <input type="color" value="#fff000">
         </div>
         <div>
-            <label for="date">Date selection</label>
+            <label class="input" for="date">Date selection</label>
             <input type="date">
         </div>
         <div>
@@ -36,7 +31,7 @@ https://css.in.ua/html/tag/input
             <input type="file">
         </div>
         <div>
-            <label for="hidden">Hidden field</label>
+            <label class="input" for="hidden">Hidden field</label>
             <input type="hidden">
         </div>
         <div>
@@ -44,7 +39,7 @@ https://css.in.ua/html/tag/input
             <input type="month">
         </div>
         <div>
-            <label for="number">Number selection</label>
+            <label class="input" for="number">Number selection</label>
             <input type="number" value="10">
         </div>
         <div>
@@ -53,10 +48,10 @@ https://css.in.ua/html/tag/input
 
         </div>
         <div>
-            <input type="reset" value="reset">
+            <input class="input" type="reset" value="reset">
         </div>
         <div>
-            <label for="search">Do a search</label>
+            <label class="input" for="search">Do a search</label>
             <input type="search" value="search">
         </div>
         <div>
@@ -64,7 +59,7 @@ https://css.in.ua/html/tag/input
             <input type="tel" value="+380 12 345 67 88">
         </div>
         <div>
-            <label for="time">Time selection</label>
+            <label class="input" for="time">Time selection</label>
             <input type="time">
         </div>
         <div>
@@ -72,7 +67,7 @@ https://css.in.ua/html/tag/input
             <input type="url" value="https://css.in.ua">
         </div>
         <div>
-            <label for="Week">Enter Week</label>
+            <label class="input" for="Week">Enter Week</label>
             <input type="week">
         </div>
         <div>
@@ -80,10 +75,15 @@ https://css.in.ua/html/tag/input
             <input type="week">
         </div>
         <div>
-            <label for="local_date">Local date</label>
+            <label class="input" for="local_date">Local date</label>
             <input type="datetime-local">
         </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" value="example@gmail.com">
+        </div>
     </form>
+
 
 </body>
 
