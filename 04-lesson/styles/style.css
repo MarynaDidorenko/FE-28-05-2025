@@ -1,0 +1,43 @@
+.article-title.fond-size-xl {
+    background-color: palevioletred;
+    font-size: 30px;
+}
+
+.article-title {
+    background-color: black;
+    color: azure;
+}
+
+#test {
+    background-color: brown;
+}
+
+.test-block {
+    background-color: blueviolet;
+    color: white;
+}
+
+h3 {
+    background-color: blue;
+}
+
+.menu-item {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    background-color: gray;
+    color: rgb(12, 156, 60);
+}
+
+.menu-item.active {
+    background-color: orange;
+}
+
+p {
+    background-color: yellow;
+    font-size: 20px;
+}
