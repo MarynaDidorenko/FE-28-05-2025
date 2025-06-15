@@ -1,0 +1,14 @@
+label{
+    font-size: 15px;
+    color: blue;
+}
+h1{
+    font-size: 30px;
+    color: red;
+}
+.input{
+   color: green;
+   font-size: 20px;
+   text-decoration: underline;
+   
+}
