@@ -22,8 +22,8 @@ h3 {
 }
 
 .menu-item {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 70px;
     background-color: gray;
     margin-bottom: 10px;
 }
@@ -33,6 +33,10 @@ h3 {
     color: rgb(12, 156, 60);
 }
 
+.menu-item:hover {
+    background-color: rgb(94, 221, 101);
+}
+
 .menu-item.active {
     background-color: orange;
 }
@@ -40,4 +44,43 @@ h3 {
 p {
     background-color: yellow;
     font-size: 20px;
+}
+
+.menu-item.active p {
+    color: aqua;
+}
+
+/* p span {
+    color: white;
+} */
+.menu-item span {
+    color: black;
+}
+
+.menu-item.active span {
+    color: chartreuse;
+}
+
+ul li:first-child {
+    background-color: rgb(20, 73, 73);
+    color: rgb(206, 241, 185);
+}
+
+ul li:last-child {
+    background-color: rgb(180, 132, 27);
+    color: rgb(0, 0, 0);
+}
+
+ul li:nth-child(4) {
+    background-color: bisque;
+    color: blue;
+}
+
+ul li:nth-child(3) {
+    background-color: rgb(163, 59, 11);
+    color: blue;
+}
+
+input[type="text"] {
+    background-color: coral;
 }

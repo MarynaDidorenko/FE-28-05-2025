@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.size-block {
+    background-color: yellow;
+    width: 316px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+
+}
