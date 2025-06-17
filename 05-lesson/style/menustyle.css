@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap');
+
+body {
+
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .edu-vic-wa-nt-hand-pre-400 {
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.edu-vic-wa-nt-hand-pre-700 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h1 i {
+    color: brown;
+    font-size: 50px;
+}
+
+p {
+    font-size: 24px;
+}
