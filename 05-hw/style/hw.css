@@ -1,10 +1,9 @@
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
-
-}
+    }
 
 .menu {
     width: 360px;
@@ -29,4 +28,153 @@ h1 {
     font-size: 32px;
     margin-left: 22px;
     margin-top: 23px;
+    margin-bottom: 0;
+}
+
+.menu form input {
+    background-color: #EFEFEF;
+    width: 316px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: none;
+    padding: 16px 8px 16px 8px;
+    margin-top: 17px;
+    margin-left: 24px;
+}
+
+.food-row {
+    display: flex;
+    /* розміщення елементів у ряд */
+    gap: 24px;
+    /* відстань між елементами */
+    justify-content: flex-start;
+    /* вирівнювання по лівому краю */
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.food-item {
+    width: 74px;
+    display: flex;
+    flex-direction: column;
+    /* вертикальне розміщення */
+    align-items: center;
+    /* по центру  */
+    background: none;
+    box-sizing: border-box;
+}
+
+.food-item-bg {
+    width: 74px;
+    height: 74px;
+    background-color: #EFEFEF;
+    border-radius: 12px;
+    /* закруглення кутів */
+    display: flex;
+    align-items: center;
+    /* вирівнювання по вертикалі */
+    justify-content: center;
+    /* вирівнювання по центру */
+}
+
+.food-item-bg img {
+    width: 37px;
+    height: 37px;
+    object-fit: contain;
+    align-items: center;
+    opacity: 0.5;
+    /* прозорість зображення */
+}
+
+.food-item.active .food-item-bg {
+    background-color: #EAE2B7;
+    /* колір фону при активному стані */
+}
+
+.food-item.active .food-item-bg img {
+    opacity: 1;
+    /* зображення стає непрозорим при активному стані */
+}
+
+.food-item h4 {
+    font-size: 16px;
+    margin: 8px 0 0 0;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.food-item.active h4 {
+    color: #000000;
+    /* колір тексту при активному стані */
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    color: #003049;
+}
+
+.burger-card {
+    width: 316px;
+    height: 88px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    margin-top: 26px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.img-block1 {
+    width: 60px;
+    height: 68px;
+    margin-left: 16px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+
+}
+
+.img-block2 {
+    width: 60px;
+    height: 56px;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.img-block3 {
+    width: 70px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.text-info {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 16px;
+    color: #003049;
+    margin: 0;
+}
+
+h5 {
+    font-size: 14px;
+    color: #D62828;
+    margin: 0;
 }
