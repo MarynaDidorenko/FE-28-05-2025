@@ -3,6 +3,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    background-color: #F7B3B3;
     }
 
 .menu {
@@ -10,7 +11,7 @@ body {
     height: 800px;
     background-color: #ffffff;
     border-radius: 20px;
-    border: 1px solid#000000;
+    
     margin: auto;
 }
 
