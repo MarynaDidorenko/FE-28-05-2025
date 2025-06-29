@@ -1,0 +1,41 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.simple-bg {
+    width: 1500px;
+    height: 1500px;
+    border: 2px solid rgb(255, 0, 0);
+    /* border-radius: 100%; */
+    margin: 100px auto;
+    /* overflow: hidden; */
+    /* background: ; */
+    background-image: url("../img/1.jpg")
+        /*, url("../img/2.jpg")*/
+    ;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: 100px; */
+    /* background-position: top right; */
+    /* background-position: top center; */
+    /* background-position: center center; */
+    background-position: top center;
+    /* background-size: contain; */
+    /* contain - растягивает картинку по размеру контейнера, при этом не обрезает края */
+    background-size: cover;
+    /* cover - растягивает картинку по размеру контейнера, при этом может обрезать края */
+
+    background-color: yellow;
+}
+
+.text-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(255, 0, 0);
+    font-size: 25px;
+    margin: 100px auto;
+    /* overflow: hidden; */
+    overflow: auto;
+}
